@@ -1,0 +1,61 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: black /*gray*/
+}
+
+.main {
+  max-width: 800px;
+  height: 1000px;
+  margin: auto;
+  padding: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #272727 /*#4b4b4b*/ /*white*/
+}
+
+.devs {
+  margin: auto;
+  padding: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #4b4b4b
+}
+
+p {
+  color: white;
+  font-family: 'grandstanderthin', Arial, sans-serif;
+  font-size: 125%;
+}
+
+a {
+	font-size: 150%;
+	color: white;
+	font-family: 'grandstanderthin', Arial, sans-serif;
+}
+
+h1 {
+  color: white;
+  font-family: 'grandstanderthin_italic', Arial, sans-serif;
+}
+
+/* font thing */
+
+
+@font-face {
+    font-family: 'grandstanderthin_italic';
+    src: url('fonts/grandstander-italic-variablefont_wght-webfont.woff2') format('woff2'),
+         url('fonts/grandstander-italic-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'grandstanderthin';
+    src: url('fonts/grandstander-variablefont_wght-webfont.woff2') format('woff2'),
+         url('fonts/grandstander-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
