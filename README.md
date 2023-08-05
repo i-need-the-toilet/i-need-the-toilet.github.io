@@ -7,4 +7,4 @@ wid da homebrew channel for nintendo wii
 i dont REDACTED for games no more i get em for REDACTED
 
 
-##my code is bad sorry.......... :(
+## my code is bad sorry.......... :(
