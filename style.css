@@ -59,3 +59,22 @@ h1 {
     font-style: normal;
 
 }
+
+/* i failed */
+
+@keyframes bgScroll {
+  0% {
+    background-position : 0px 0px
+  }
+  100% {
+    background-position : -640px -640px
+  }
+}
+
+.scrollingBG {
+  display:block;
+  width:98vw;
+  height:100vh;
+  background-image:url("bg.png");
+  animation: bgScroll 20s linear infinite;
+}
