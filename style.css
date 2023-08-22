@@ -14,6 +14,16 @@ html {
   background-color: #272727 /*#4b4b4b*/ /*white*/
 }
 
+.main2 {
+  max-width: 1500px;
+  height: 1000px;
+  margin: auto;
+  padding: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #272727 /*#4b4b4b*/ /*white*/
+}
+
 .devs {
   margin: auto;
   padding: 0px;
@@ -58,6 +68,28 @@ h1 {
     font-weight: normal;
     font-style: normal;
 
+}
+
+/* scrolling bg */
+
+.container {
+	overflow: hidden;
+}
+
+.sliding-background {
+	background: url("bg.png") repeat-x repeat-y;
+	height: 64px;
+	width: 64px;
+	animation: slide 60s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-64px, 0, 0); /* The image width */
+  }
 }
 
 /* i failed */
